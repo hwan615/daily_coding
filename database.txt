@@ -1,0 +1,13 @@
+CSE 305 memo
+
+to start the client from shell
+
+
+mysql -h localhost -u root
+
+show databases;
+
+create database cha;
+
+drop database if exists cha;
+
