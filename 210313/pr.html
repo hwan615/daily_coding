@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --blue: green;
+        }
+        div {
+            color: blue;
+        }
+        div ol {
+            color: var(--blue);
+        }
+        div ol .c_second {
+            color: pink;
+        }
+        div ol .c_first, .c_second {
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ol>
+            <li id="first" class="c_first">first</li>
+            <li id="second" class="c_second">second</li>
+            <li id="third" class="c_third">third</li>
+        </ol>
+    </div>
+</body>
+</html>
